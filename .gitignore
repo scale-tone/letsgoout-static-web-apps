@@ -14,11 +14,7 @@
 # misc
 .DS_Store
 .env.local
-
-# Normally this file should not be committed. 
-# Exclude it once you start adding connection strings and other local parameters.
-#.env.development.local
-
+.env.development.local
 .env.test.local
 .env.production.local
 
