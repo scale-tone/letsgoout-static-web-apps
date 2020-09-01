@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "rootDir": ".",
+        "outDir": "../../api/shared",
+        "sourceMap": true,
+        "strict": false,
+        "declaration": true,
+        "declarationMap": true,
+        "composite": true,
+    }
+}

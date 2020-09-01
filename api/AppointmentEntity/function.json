@@ -1,0 +1,19 @@
+{
+    "bindings": [
+        {
+            "name": "context",
+            "type": "entityTrigger",
+            "direction": "in"
+        },
+
+        {
+            "type": "signalR",
+            "name": "signalRMessages",
+            "hubName": "LetsGoOutHub",
+            "connectionStringSetting": "AzureSignalRConnectionString",
+            "direction": "out"
+        }
+    ],
+    "disabled": false,
+    "scriptFile": "../dist/AppointmentEntity/index.js"
+}

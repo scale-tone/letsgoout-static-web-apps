@@ -1,0 +1,24 @@
+{
+    "bindings": [
+        {
+            "authLevel": "anonymous",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "post"
+            ]
+        },
+        {
+            "name": "starter",
+            "type": "orchestrationClient",
+            "direction": "in"
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        }
+    ],
+    "scriptFile": "../dist/new-appointment/index.js"
+}

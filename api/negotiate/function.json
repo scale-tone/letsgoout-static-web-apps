@@ -1,0 +1,27 @@
+{
+    "bindings": [
+        {
+            "authLevel": "anonymous",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "get",
+                "post"
+            ]
+        },
+        {
+            "type": "signalRConnectionInfo",
+            "name": "connectionInfo",
+            "hubName": "LetsGoOutHub",
+            "userId": "{query.nick-name}",
+            "direction": "in"
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        }
+    ],
+    "scriptFile": "../dist/negotiate/index.js"
+}
