@@ -16,7 +16,7 @@ ReactDOM.render(
 
     <div>
         <nav className="navbar navbar-dark bg-dark">
-            <a className="navbar-brand" href="#">Let's Go Out Demo</a>
+            <a className="navbar-brand" href="/">Let's Go Out Demo</a>
 
             <LoginButton state={appState.loginState}></LoginButton>
         </nav>
