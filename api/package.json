@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc -b & ls & ncp ./shared ./dist/shared",
+    "build": "tsc -b && ncp shared dist/shared",
     "watch": "tsc -w",
     "prestart": "npm run build",
-    "start": "func extensions install & func start",
+    "start": "func extensions install && func start",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
