@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -b && ncp shared dist/shared",
     "watch": "tsc -w",
     "prestart": "npm run build",
     "start": "func start",
